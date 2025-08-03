@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevFinder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>DevFinder 🔍</h1>
+    <input type="text" id="username" placeholder="Enter GitHub username" />
+    <button id="searchBtn">Search</button>
+
+    <div id="profile" class="hidden">
+      <img id="avatar" src="" alt="Avatar" />
+      <h2 id="name"></h2>
+      <p id="bio"></p>
+      <p><strong>Followers:</strong> <span id="followers"></span></p>
+      <p><strong>Following:</strong> <span id="following"></span></p>
+    </div>
+
+    <p id="error" class="error hidden">User not found 😢</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
